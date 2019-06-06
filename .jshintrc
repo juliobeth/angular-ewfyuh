@@ -1,0 +1,27 @@
+{
+  "bitwise": true,
+  "browser": true,
+  "curly": false,
+  "asi": true,
+  "eqeqeq": false,
+  "esnext": true,
+  "latedef": false,
+  "noarg": true,
+  "node": true,
+  "strict": true,
+  "undef": true,
+  "unused": false,
+  "globals": {
+    "angular": false,
+    "moment": false,
+    "$": false,
+    "$timeout": false,
+    "swal": false,
+    "_": false,
+    "profileService": false
+  },
+  "loopfunc" : true,
+  "-W032": true,
+  "-W034": true,
+  "-W069": true
+}

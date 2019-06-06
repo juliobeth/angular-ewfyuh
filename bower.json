@@ -1,0 +1,96 @@
+{
+  "name": "laneta.com",
+  "version": "2.0.0-sprint03",
+  "description": "Portal La Neta, el mejor lugar para informarse desde México para el mundo...",
+  "main": "Gruntfile.js",
+  "authors": [
+    "Daniel Ramirez <daniel@globalmedia.review>",
+    "Mayreny Gonzalez <mayreny@globalmedia.review>",
+    "Luis Valero <luisvalerom@gmail.com>",
+    "Luis Lopez <luislopez1594@gmail.com>",
+    "Anderson Delgado <anderson.andersondelgado.delga@gmail.com>",
+    "Jose España <espana.jose.manuel@gmail.com>",
+    "Ismael Urias <Ismael.urias3@gmail.com>",
+    "Enrique F Agudo <birliqui@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "News",
+    "La",
+    "Neta",
+    "Noticias",
+    "México",
+    "USA",
+    "Política",
+    "Novedades",
+    "Deportes",
+    "Arte",
+    "Cultura",
+    "Ciencia",
+    "Tecnología"
+  ],
+  "homepage": "https://gitlab.com/danielramirezhinojosa/portal-laneta-front#README",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.3.1",
+    "bootstrap": "^3.3.4",
+    "bootstrap-sweetalert": "^1.0.1",
+    "lodash": "^4.17.10",
+    "moment": "^2.9.0",
+    "moment-timezone": "^0.5.17",
+    "angular": "1.6.10",
+    "angular-route": "~1.6.10",
+    "angular-cookies": "~1.6.10",
+    "angular-sanitize": "~1.6.10",
+    "angular-resource": "~1.6.10",
+    "angular-animate": "~1.6.10",
+    "angular-touch": "~1.6.10",
+    "angular-bootstrap": "^2.4.0",
+    "angular-ui-utils": "*",
+    "angular-sessionstorage": "^1.1.5",
+    "angular-md5": "^0.1.10",
+    "angular-clipboard": "^1.6.2",
+    "angular-scroll": "^1.0.2",
+    "angular-nvd3": "^1.0.9",
+    "angular-ui-swiper": "^2.3.8",
+    "angularjs-socialshare": "^2.3.11",
+    "angular-counter-animation": "^0.2.0",
+    "ngInfiniteScroll": "^1.0.0",
+    "ngtweet": "^1.0.0",
+    "ng-file-upload": "^12.2.13",
+    "ng-dialog": "^1.4.0",
+    "ng-youtube-embed": "^1.7.12",
+    "angular-ui-notification": "^0.3.6",
+    "angular-translate": "^2.18.1",
+    "angular-translate-loader-static-files": "^2.18.1",
+    "angular-ui-validate": "^1.2.3",
+    "emojionearea": "^3.4.1",
+    "checklist-model": "^1.0.0",
+    "angular-i18n": "^1.7.3"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.6.10"
+  },
+  "appPath": "app",
+  "moduleName": "portalLaNetaApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  },
+  "resolutions": {
+    "angular": "1.6.10",
+    "jquery": "3.3.1"
+  }
+}

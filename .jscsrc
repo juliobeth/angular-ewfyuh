@@ -1,0 +1,8 @@
+{
+  "requireOperatorBeforeLineBreak": true,
+  "validateIndentation": 2,
+  "disallowMultipleLineStrings": true,
+  "disallowMixedSpacesAndTabs": true,
+  "disallowSpaceAfterPrefixUnaryOperators": true,
+  "excludeFiles": []
+}

@@ -1,0 +1,17 @@
+node_modules/
+bower_components/
+app/bower_components/
+dist/
+.tmp/
+.bowerrc
+.editorconfig
+.gitattributes
+*.iml
+.yo-rc.json
+.idea/
+.sass-cache/
+scss/
+scss/**/*
+test/
+test/karma.conf.js
+test/**/*
